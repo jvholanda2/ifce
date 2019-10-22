@@ -71,7 +71,7 @@ require_once "../controller/alerta_login.php";
                                   $x = 0;
                                   while ($x<  count($descricaoperfil)){ ?>
                                       <option selected="selected" value="<?=$x+1?>"><?= $descricaoperfil[$x] ?></option>
-                                      <?php  $x++;
+                                      <?$x++;
                                   }?>
                               </select>
                           </div>
